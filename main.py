@@ -100,7 +100,7 @@ custom_weight_path = hf_hub_download(
 )
 
 # 用 safetensors 安全加载单文件权重
-weight_dict = safe_load_file(custom_weight_path, device="cpu")
+weight_dict = load_file(custom_weight_path, device="cpu")
 # 注入到 FLUX 的 transformer 核心组件
 pipe.transformer.load_state_dict(weight_dict, strict=False)
 
