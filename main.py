@@ -8,7 +8,7 @@ from safetensors.torch import load_file
 
 # ===================== 1. Hugging Face 认证（核心修复） =====================
 # 替换为你的 HF Token（Read 权限即可，从 https://huggingface.co/settings/tokens 获取）
-HF_TOKEN = "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"
+HF_TOKEN = "your_huggingface_token_here"
 # 登录认证（解决 gated repo 访问限制）
 login(token=HF_TOKEN, add_to_git_credential=False)
 
