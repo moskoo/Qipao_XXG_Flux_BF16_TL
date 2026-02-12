@@ -1,0 +1,17 @@
+# 核心依赖（必须安装）
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.37.0
+accelerate>=0.25.0
+diffusers[torch]>=0.27.0  # 需>=0.27.0才支持Flux.1
+safetensors>=0.4.1
+sentencepiece>=0.1.99
+huggingface_hub
+
+Pillow>=10.0.0
+matplotlib>=3.8.0
+tqdm>=4.66.0
+
+# 可选：针对NVIDIA GPU的优化（可选）
+# nvidia-cudnn-cu11>=8.9.2.26  # CUDA 11.x
+# nvidia-cudnn-cu12>=8.9.2.26  # CUDA 12.x
