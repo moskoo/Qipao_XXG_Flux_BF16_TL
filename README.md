@@ -118,3 +118,5 @@ Specifically designed for generating high-quality portrait photography of Asian 
 
 `Photograph of a young Asian woman with pale skin and black hair in a bob cut, wearing a sleeveless, form-fitting, green and white floral Chinese cheongsam dress. She has visible tattoos on her left arm and right upper arm. She is leaning against a stone railing with her right arm resting on it, looking directly at the camera with a neutral expression.  The woman's dress has a high collar and green trim, and her makeup is subtle, enhancing her natural features.`
 
+
+
